@@ -17,8 +17,8 @@ const readJsonFile = (filePath: string) => {
 const routesConfig: RouteConfig[] = [
   {
     method: 'GET',
-    path: '/hello',
-    response: readJsonFile('hello.json'),
+    path: '/prueba',
+    response: readJsonFile('prueba.json'),
   },
   {
     method: 'POST',
